@@ -3,8 +3,7 @@ import Navbar from "./components/FoodNavbar";
 import Hero from "./components/Hero";
 import SecondNav from "./components/SecondNav";
 import { CartProvider } from "./Context/Cardcontext";
-
-import Kids from "./pages/kids";
+import Kids from "./pages/Kids";
 import Men from "./pages/men";
 import Women from "./pages/women";
 import Footer from "./components/Footer";
