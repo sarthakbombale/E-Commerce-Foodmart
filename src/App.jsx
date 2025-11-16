@@ -5,7 +5,8 @@ import SecondNav from "./components/SecondNav";
 import { CartProvider } from "./Context/Cardcontext";
 import Kids from "./pages/Kids";
 import Men from "./pages/men";
-import Women from "./pages/women";
+import Women from "./pages/Women";
+
 import Footer from "./components/Footer";
 
 
