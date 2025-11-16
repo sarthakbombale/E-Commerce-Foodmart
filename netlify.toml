@@ -1,4 +1,7 @@
 [build]
+  base = ""
+  publish = "build"
   command = "npm run build"
-  publish = "dist"
-  environment = { NODE_VERSION = "20" }  # optional, if you need a specific Node version
+
+[build.environment]
+  NODE_VERSION = "20"

@@ -1,4 +1,10 @@
-[build]
-  command = "npm run build"
-  publish = "build"
-  environment = { NODE_VERSION = "20" }  # optional
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: 'build' // optional: sets the output folder for Netlify
+  }
+});
