@@ -4,8 +4,10 @@ import Hero from "./components/Hero";
 import SecondNav from "./components/SecondNav";
 import { CartProvider } from "./Context/Cardcontext";
 import Kids from "./pages/Kids";
-import Men from "./pages/men";
-import Women from "./pages/women";
+import Men from "./pages/Men";
+import Women from "./pages/Women";
+
+
 
 import Footer from "./components/Footer";
 
