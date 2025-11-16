@@ -1,12 +1,53 @@
-# React + Vite
+Foodmart - React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Foodmart is a modern, responsive e-commerce web application built with React, Vite, and React Bootstrap. It provides a smooth shopping experience with dynamic product listings, categories, and an interactive cart.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Hero section with promotional banners
 
-## Expanding the ESLint configuration
+Category listings for Fruits, Beverages, Meat & Poultry, and more
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Trending, Best-Selling, and Popular products with quantity selection
+
+Cart functionality managed via React Context API
+
+Pages for Women, Men, and Kids
+
+Blog section and newsletter subscription
+
+Mobile-friendly design
+
+Ready for deployment on Netlify (case-sensitive file handling)
+
+Tech Stack
+
+Frontend: React, React Router, React Bootstrap
+
+State Management: React Context API (Cart)
+
+Build Tool: Vite
+
+Icons: lucide-react
+
+Getting Started
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
