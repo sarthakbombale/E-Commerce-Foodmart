@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Facebook, Twitter, Youtube, Instagram } from "lucide-react";
+import Logo from "../assets/logo.png"; // Adjust path based on your folder structure
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         <Row className="align-items-top">
           {/* --- Logo + Social Icons --- */}
           <Col md={4} className="mb-4 text-center text-md-start">
-            <img src="src/assets/logo.png" alt="Logo" className="mb-4" style={{ width: "150px" }} />
+            <img src={Logo} alt="Logo" className="mb-4" style={{ width: "150px" }} />
             <div className="d-flex justify-content-md-start justify-content-center gap-4 mx-md-2">
               <a href="#" className="text-dark"><Facebook /></a>
               <a href="#" className="text-dark"><Twitter /></a>
